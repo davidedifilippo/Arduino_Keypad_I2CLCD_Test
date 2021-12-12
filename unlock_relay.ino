@@ -31,7 +31,7 @@ Keypad customKeypad = Keypad(makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS)
 
 // set the LCD address to "0x27"(or "0x3f") for a 16 chars and 2 line display
 // set the LCD address to "0x3f"(or "0x27") for a 16 chars and 2 line display
-LiquidCrystal_I2C lcd(0x3f, 16, 2);  
+LiquidCrystal_I2C lcd(0x27, 16, 4);  
 
 void setup(){
 
